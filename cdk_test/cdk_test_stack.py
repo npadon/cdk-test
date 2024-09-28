@@ -1,5 +1,5 @@
 from aws_cdk import (
-    # Duration,
+    Duration,
     Stack,
     aws_sqs as sqs,
 )
