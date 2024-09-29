@@ -14,5 +14,5 @@ class CdkTestStack(Stack):
 
         queue = sqs.Queue(
             self, "CdkTestQueue",
-            visibility_timeout=Duration.seconds(350),
+            visibility_timeout=Duration.seconds(400),
         )
